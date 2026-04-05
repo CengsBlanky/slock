@@ -21,6 +21,7 @@ slock: ${OBJ}
 
 clean:
 	rm -f slock ${OBJ} slock-${VERSION}.tar.gz
+	rm -f config.h *.o
 
 dist: clean
 	mkdir -p slock-${VERSION}
