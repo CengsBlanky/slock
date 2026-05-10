@@ -9,4 +9,13 @@ static const char *colorname[NUMCOLS] = {
 };
 
 /* treat a cleared input like a wrong password (color) */
-static const int failonclear = 1;
+static const int failonclear = 0;
+
+/* default message */
+static const char * message = "Computer Locked";
+
+/* text color */
+static const char * text_color = "#e5e9f0";
+
+/* text size (must be a valid size) */
+static const char * font_name = "-adobe-helvetica-bold-r-normal--34-240-100-100-p-182-iso8859-15";
